@@ -15,15 +15,9 @@ library(datasauRus)
 
 ### Exercise 1
 
-(Type your answer to Exercise 1 here. This exercise does not require any R code.)
-
 The database has *3 variables/columns* and *1846 rows*. The variables are *dataset*, *x values* and *y values*. 
 
 ### Exercise 2
-
-(The answers for this Exercise are given for you below. But you should clean up some of the narrative so that it only includes what you want to turn in.)
-
-First let's plot the data in the dino dataset:
 
 ```{r plot-dino, fig.height=3, fig.width=6}
 dino_data <- datasaurus_dozen %>%
@@ -32,7 +26,9 @@ dino_data <- datasaurus_dozen %>%
 ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
   geom_point()
 ```
-And next calculate the correlation between `x` and `y` in this dataset:
+
+Here we see a savage T-Rex, presumably before attempting push ups. 
+The relationship between *x* and *y* is r = -0.06447185
 
 ```{r cor-dino}
 dino_data %>%
