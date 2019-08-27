@@ -17,6 +17,8 @@ library(datasauRus)
 
 (Type your answer to Exercise 1 here. This exercise does not require any R code.)
 
+The database has *3 variables/columns* and *1846 rows*. The variables are *dataset*, *x values* and *y values*. 
+
 ### Exercise 2
 
 (The answers for this Exercise are given for you below. But you should clean up some of the narrative so that it only includes what you want to turn in.)
