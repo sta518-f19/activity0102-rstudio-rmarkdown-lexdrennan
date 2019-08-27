@@ -1,6 +1,6 @@
 ---
 title: "Activity 1.2 - RStudio and R Markdown"
-author: "Bradford Dykes"
+author: "Lex Drennan"
 date: "8/26/2019"
 output: html_document
 ---
@@ -30,7 +30,6 @@ dino_data <- datasaurus_dozen %>%
 ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
   geom_point()
 ```
-
 And next calculate the correlation between `x` and `y` in this dataset:
 
 ```{r cor-dino}
